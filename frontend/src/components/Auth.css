@@ -1,0 +1,55 @@
+/* src/components/Auth.css */
+
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #ff6a00, #ee0979);
+  }
+  
+  .auth-card {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    width: 400px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .password-input {
+    position: relative;
+  }
+  
+  .toggle-password {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #007bff;
+  }
+  
+  .toggle-link {
+    color: #007bff;
+    cursor: pointer;
+  }
+  
+  .social-signin {
+    text-align: center;
+  }
+  
+  .social-signin button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  button i {
+    margin-right: 8px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    color: #ff6a00;
+  }
+  

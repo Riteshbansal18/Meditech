@@ -66,7 +66,8 @@ const server = http.createServer((req, res) => {
             sendJSONResponse(res, 200, { message: 'User added successfully.' });
           });
         });
-      } catch (error) {
+      } 
+      catch (error) {
         console.error('Error processing request body:', error);
         sendJSONResponse(res, 400, { message: 'Invalid JSON format.' });
       }
@@ -81,7 +82,8 @@ const server = http.createServer((req, res) => {
       const users = JSON.parse(data);
       sendJSONResponse(res, 200, users);
     });
-  } else {
+  } 
+  else {
     sendJSONResponse(res, 404, { message: 'Endpoint not found' });
   }
 });

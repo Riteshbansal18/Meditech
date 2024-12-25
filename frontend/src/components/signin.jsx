@@ -163,7 +163,6 @@ const SignIn = () => {
 
 export default SignIn;
 
-/* Spinner CSS */
 const styles = `
   .spinner {
     display: inline-block;
